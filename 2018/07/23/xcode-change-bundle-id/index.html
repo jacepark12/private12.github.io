@@ -5,15 +5,20 @@
   
 
   
-  <title>Archives: 2018/7 | Hexo</title>
+  <title>xcode bundle identifier 변경 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2018/07/index.html">
+  <meta name="description" content="react-native 혹은, ios를 github 저장소에서 받아서 프로젝트를 archive하거나 release를 하려다 보면 Bundler Identifier를 변경해야 provisioning profile을 생성할 수 있다는 에러가 뜬다.이러한 경우에는 Bundle Identifier를 변경해야 한다.react-native의 ios 폴더안에 있는 xc">
+<meta name="keywords" content="react-native,리액트 네이티브,ios,xcode">
+<meta property="og:type" content="article">
+<meta property="og:title" content="xcode bundle identifier 변경">
+<meta property="og:url" content="http://yoursite.com/2018/07/23/xcode-change-bundle-id/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="react-native 혹은, ios를 github 저장소에서 받아서 프로젝트를 archive하거나 release를 하려다 보면 Bundler Identifier를 변경해야 provisioning profile을 생성할 수 있다는 에러가 뜬다.이러한 경우에는 Bundle Identifier를 변경해야 한다.react-native의 ios 폴더안에 있는 xc">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-07-22T15:13:11.326Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="xcode bundle identifier 변경">
+<meta name="twitter:description" content="react-native 혹은, ios를 github 저장소에서 받아서 프로젝트를 archive하거나 release를 하려다 보면 Bundler Identifier를 변경해야 provisioning profile을 생성할 수 있다는 에러가 뜬다.이러한 경우에는 Bundle Identifier를 변경해야 한다.react-native의 ios 폴더안에 있는 xc">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,129 +65,62 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/07/23/xcode-change-bundle-id/" class="archive-article-date">
-  <time datetime="2018-07-22T15:08:08.000Z" itemprop="datePublished">Jul 23</time>
+        <section id="main"><article id="post-xcode-change-bundle-id" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/07/23/xcode-change-bundle-id/" class="article-date">
+  <time datetime="2018-07-22T15:08:08.000Z" itemprop="datePublished">2018-07-23</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/react-native/">react-native</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/23/xcode-change-bundle-id/">xcode bundle identifier 변경</a>
+    <h1 class="article-title" itemprop="name">
+      xcode bundle identifier 변경
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/07/22/react-native-build-err/" class="archive-article-date">
-  <time datetime="2018-07-22T14:49:01.000Z" itemprop="datePublished">Jul 22</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/22/react-native-build-err/">react native &#39;third party&#39; 관련 빌드 에러</a>
-    </h1>
-  
+        <p>react-native 혹은, ios를 github 저장소에서 받아서 프로젝트를 archive하거나 release를 하려다 보면 Bundler Identifier를 변경해야 provisioning profile을 생성할 수 있다는 에러가 뜬다.<br>이러한 경우에는 Bundle Identifier를 변경해야 한다.<br>react-native의 ios 폴더안에 있는 xcode workspace 파일을 xcode로 열고 아래의 순서를 따른다. </p>
+<ol>
+<li>Target -&gt; Build Settings -&gt; product bundle 검색 -&gt; product bundle identifier</li>
+<li>더블 클릭 후 변경</li>
+</ol>
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/07/22/react-native-build-error1/" class="archive-article-date">
-  <time datetime="2018-07-22T14:47:39.551Z" itemprop="datePublished">Jul 22</time>
-</a>
       
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/07/20/mobile-pdf/" class="archive-article-date">
-  <time datetime="2018-07-20T05:44:52.000Z" itemprop="datePublished">Jul 20</time>
-</a>
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/07/23/xcode-change-bundle-id/" data-id="cjjwzf8si0007m9edial2igbb" class="article-share-link">Share</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/20/mobile-pdf/">mobile-pdf</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/07/13/test/" class="archive-article-date">
-  <time datetime="2018-07-12T15:43:08.000Z" itemprop="datePublished">Jul 13</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/13/test/">test</a>
-    </h1>
-  
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ios/">ios</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/react-native/">react-native</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/xcode/">xcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/리액트-네이티브/">리액트 네이티브</a></li></ul>
 
-    </header>
+    </footer>
   </div>
-</article>
   
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/07/13/hello-world/" class="archive-article-date">
-  <time datetime="2018-07-12T15:35:06.116Z" itemprop="datePublished">Jul 13</time>
-</a>
-      
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/13/hello-world/">Hello World</a>
-    </h1>
   
+    <a href="/2018/07/22/react-native-build-err/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">react native &#39;third party&#39; 관련 빌드 에러</div>
+    </a>
+  
+</nav>
 
-    </header>
-  </div>
+  
 </article>
-  
-  
-    </div></section>
-  
-
 
 </section>
         
