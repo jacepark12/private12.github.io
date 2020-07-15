@@ -1,6 +1,6 @@
 <package>
-	<id>io.andylab.naverwebtoonadblocker</id>
-	<name>NAVERWEBTOONAdBlocker</name>
+	<id>com.jspark.flo</id>
+	<name>FLO Controller</name>
 	<version>1.0.0-1</version>
 	<compatibility>
 		<firmware>
